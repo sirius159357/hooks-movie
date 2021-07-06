@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.SearchInput{
+    width: 40%;
+    min-width: 170px;
+    height: 25px;
+}
+.SearchButton{
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.SearchButton:hover{
+    background-color: blue;
+    color: white;
+}

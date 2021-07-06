@@ -1,0 +1,13 @@
+
+.HeaderStyle{
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: column; /*内容纵向展示*/
+    align-items: center;   /*字体横向位置*/
+    justify-content: center;  /*字体纵向位置*/
+    padding: 20px;
+    cursor: pointer; /*指定鼠标放在该位置的样式*/
+}
+
